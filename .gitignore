@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ---- Virtual Environment ----
+env/
+venv/
+ENV/
+.venv/
+
+# ---- Model and Data Files ----
+*.pkl
+*.h5
+*.csv
+*.xlsx
+*.txt
+data/
+notebook/*.csv
+notebook/*.pkl
+
+# ---- VS Code ----
+.vscode/
+
+# ---- System Files ----
+.DS_Store
+Thumbs.db
